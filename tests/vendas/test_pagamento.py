@@ -11,3 +11,4 @@ def test_tempo_processamento_pagamento():
 
     # O tempo deve ser inferior a 100 milissegundos (0.1 segundos)
     assert tempo_decorrido < 0.1
+    
